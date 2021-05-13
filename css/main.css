@@ -1,0 +1,40 @@
+html, body {
+    font-family: 'Amiri', serif !important;
+    direction: rtl;
+}
+
+.page {
+    padding: 2rem;
+    margin-top: 60px
+}
+
+.detail {
+    font-size: 20px;
+    margin: 2rem 0;
+    text-align: right;
+}
+
+.detail-cite {
+    position: relative;
+    font-weight: bold
+}
+
+.detail-cite::before {
+    content: '(';
+    
+}
+
+.detail-cite::after {
+    content: ')';
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 600px){
+    .detail {
+        font-size: 18px;
+    }
+}
